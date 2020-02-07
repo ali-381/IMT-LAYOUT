@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IMT PVT.LTD</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            /* background: lightcoral; */
+            margin: 0;
+            padding: 0;
+        }
+
+        #wapper {
+            /* background:rgb(0,153,153); */
+            border: 2px solid black;
+            width: 1000px;
+            margin: 0 auto;
+            box-shadow: 6px 6px 10px blue
+        }
+
+        #header {
+            padding: 15px;
+            background-color: antiquewhite;
+            margin: 0;
+        }
+
+        #menu {
+            background-color: #73a751;
+        }
+
+        #menu ul {
+            margin: 0;
+        }
+
+        #menu li a {
+            text-decoration: none;
+            padding: 5px;
+            color: black;
+
+        }
+
+        #menu li a:hover {
+            background: whitesmoke;
+            color: teal;
+        }
+
+        #menu li {
+            display: inline-block;
+            /* height: px; */
+            padding: 15px;
+            margin: 0;
+        }
+
+        #content {
+            background-color: rgb(204, 255, 153);
+            width: 800px;
+            float: left;
+            min-height: 500px;
+            box-sizing: border-box;
+            padding: 15px;
+            ;
+        }
+
+        #footer {
+            background-color: #73a751;
+            text-align: right;
+            clear: both;
+            padding: 3px;
+        }
+
+        #sidebar {
+            background: lightblue;
+            width: 200px;
+            min-height: 500px;
+            float: right;
+        }
+
+        @media screen and (max-width: 1020px) {
+            #wapper {
+                width: 810px;
+            }
+
+            #content {
+                width: 80%
+            }
+
+            #sidebar {
+                width: 20%;
+                min-height: 500px
+        
+            }
+
+            body {
+                background: black;
+            }
+        }
+
+        @media screen and (max-width: 810px) {
+            #wapper {
+                width: 500px;
+            }
+
+            #content {
+                width: 65%;
+            }
+
+            #sidebar {
+                width: 35%;
+            }
+
+            body {
+                background: blue
+            }
+        }
+
+        @media screen and (max-width: 510px) {
+            #wapper {
+                width: 340px;
+            }
+
+            #content {
+                width: 100%;
+                float: none
+            }
+
+            #sidebar {
+                width: 100%;
+                float: none
+            }
+            #footer h4{
+                text-align: center;
+            }
+            #menu li a{
+                font-size: auto;
+                padding: 0 5px;
+
+            }
+            #header h1{
+                font-size-adjust: inherit;
+                font-size: auto;
+                text-align: center;
+            }
+
+            body {
+                background: lightgrey;
+                width:;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wapper">
+        <div id="header">
+            <h1>INNOVATE MEDICAL</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h2>FIRST MODEL STYLE</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eligendi animi facilis dolores, enim
+                perferendis delectus nemo voluptate explicabo in et at iste exercitationem alias labore cum, culpa
+                pariatur reiciendis!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eligendi animi
+                facilis dolores, enim perferendis delectus nemo voluptate explicabo in et at iste exercitationem alias
+                labore cum, culpa pariatur reiciendis!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+                eligendi animi facilis dolores, enim perferendis delectus nemo voluptate explicabo in et at iste
+                exercitationem alias labore cum, culpa pariatur reiciendis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea commodi explicabo laborum, et pariatur
+                fugiat quaerat veniam culpa placeat rerum necessitatibus impedit similique? Quas adipisci quasi ipsum
+                tempora minus quae.</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+                <li>GALLERY</li>
+            </ul>
+        </div>
+        <div id="footer">
+            <h4>Muhammad Ali @CopyRigth 2019</h4>
+        </div>
+</body>
+
+</html>
